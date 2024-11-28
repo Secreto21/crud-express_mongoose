@@ -1,0 +1,11 @@
+# Asegurar LF para los archivos de código
+*.js text eol=lf
+*.json text eol=lf
+
+# Asegurar CRLF para scripts en Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Evitar modificaciones para binarios
+*.png binary
+*.jpg binary
